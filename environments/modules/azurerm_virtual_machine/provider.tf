@@ -6,10 +6,10 @@ terraform {
     }
   }
 backend "azurerm" {
-  resource_group_name = "Manikc.verma"
-  storage_account_name = "manikcstorage"
-  container_name = "manikccontainers"
-  key = "virtual_machine.tfstate"
+  resource_group_name = "RG-manikverma"
+  storage_account_name = "piyush0storage"
+  container_name = "pranjalcontaine"
+  key = "virtual_network.tfstate"
 }
 }
 provider "azurerm" {
